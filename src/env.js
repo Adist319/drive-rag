@@ -13,6 +13,13 @@ export const env = createEnv({
       .default("development"),
   },
 
+  // SINGLE_STORE_USER: z.string(),
+  // SINGLE_STORE_PASS: z.string(),
+  // SINGLE_STORE_HOST: z.string(),
+  // SINGLE_STORE_PORT: z.string(),
+  // SINGLE_STORE_DATABASE: z.string(),
+  // SINGLE_STORE_SSL: z.string(),
+
   /**
    * Specify your client-side environment variables schema here. This way you can ensure the app
    * isn't built with invalid env vars. To expose them to the client, prefix them with
